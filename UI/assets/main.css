@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 /*
 ================================================
  General Styles
 ================================================
 */
+=======
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 * {
@@ -15,6 +18,11 @@ body,
 html {
   height: 100%;
   width: 100%;
+<<<<<<< HEAD
+=======
+  padding: 0;
+  background: #f1f1f1;
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 }
 
 html {
@@ -74,6 +82,10 @@ h6 {
 
 h1 {
   font-size: 40px;
+<<<<<<< HEAD
+=======
+  color: #000000
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 }
 
 h2 {
@@ -167,9 +179,13 @@ a:hover {
 }
 
 /*
+<<<<<<< HEAD
 ================================================
  Header Styles
 ================================================
+=======
+ Header Styles
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 header.front {
@@ -421,9 +437,13 @@ header.front .bottom-header .box div {
 }
 
 /*
+<<<<<<< HEAD
 ================================================
  Carousel
 ================================================
+=======
+ Carousel
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 .main-body {
@@ -451,9 +471,13 @@ header.front .bottom-header .box div {
 
 
 /*
+<<<<<<< HEAD
 ================================================
  Intro
 =============================================
+=======
+ Intro
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 .intro {
@@ -461,9 +485,13 @@ header.front .bottom-header .box div {
 }
 
 /*
+<<<<<<< HEAD
 ================================================
 6. Offices
 ================================================
+=======
+ Offices
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 .offices {
@@ -472,9 +500,13 @@ header.front .bottom-header .box div {
 }
 
 /*
+<<<<<<< HEAD
 ================================================
 7. Candidates
 ================================================
+=======
+ Candidates
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 .candidates {
@@ -483,9 +515,13 @@ header.front .bottom-header .box div {
 }
 
 /*
+<<<<<<< HEAD
 ================================================
 8. Political parties
 ================================================
+=======
+ Political parties
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 .parties {
@@ -494,9 +530,13 @@ header.front .bottom-header .box div {
 }
 
 /*
+<<<<<<< HEAD
 ================================================
  Footer styles
 ================================================
+=======
+ Footer styles
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 */
 
 footer {
@@ -511,12 +551,15 @@ footer.back {
   background: #23282d;
 }
 
+<<<<<<< HEAD
 /*
 ================================================
 Dashboard
 ================================================
 */
 
+=======
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 /*general styles*/
 
 * {
@@ -827,12 +870,15 @@ $red: #e74c3c;
    @include box-sizing(border-box);
 }
 
+<<<<<<< HEAD
 html, body {
   background: #f1f1f1;
   font-family: 'Merriweather', sans-serif;
   padding: 1em;
 }
 
+=======
+>>>>>>> ef6452613091347bd6cc3ed3713fcc94ec9dd983
 h1 {
    text-align: center;
    color: #a8a8a8;

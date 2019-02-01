@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>POLITICO | User</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="https://use.fontawesome.com/ce5690c480.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>POLITICO | User</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="user.css" />
+  <script async src="../assets/main.js"></script>
 </head>
-<main>
- <button class="button">Vote Now</button>
-<section class="user_general">
-  <div class="user_img_wrapper">
-      <div class="user_img"></div>
-  </div>
-  <h2>Jayson</h2>
-  <p class="user_uid">jaystaks</p>
-  <div class="user_general_info">
-    <div><i class="fa fa-user-o"></i> <b>About me</b></div>
-    <ul>
-      <li>Age : <b>24</b></li>
-      <li>Gender : <b>Male</b></li>
-      <li>Job : <b>EPIC Dev</b></li>
-      <li>Phone : <b>772 443 214</b></li>
-    </ul>
-  </div>
-</section>
 
-    <footer>
-      <div class="container">
-        <p>&#64;JAY5TAKS &#10084; &#124; &copy; 2019 Reserved</p>
-      </div>
-    </footer>
+<body>
+  <p class='title'><a href='/home/jay5taks/Documents/Projects/Politico/UI/index.html' target='_blank'>POLITICO</a></p>
 
-</main>
-</html>
+<div class='panel noselect'>
+	<div class='admin-panel'>
+		<label class='text' for='toggle'>User Profile</label>
+		<label class='fas fa-cog' for='toggle'></label>
+	</div>
+
+	<input type='checkbox' id='toggle'>
+
+	<div class='menu-panel'>
+		<div class='arrow'></div>
+		<a href='parties.html' class='row'>
+			<div class='column-left'>View Parties</div>
+			<div class='column-right'><i class='fas fa-edit'></i></div>
+		</a>
+    <a href='candidates.html' class='row'>
+			<div class='column-left'>View Aspirants</div>
+			<div class='column-right'><i class='fas fa-user'></i></div>
+		</a>
+		<a href='tally.html' class='row'>
+			<div class='column-left'>Election Tally</div>
+			<div class='column-right'><i class='far fa-chart-bar'></i></div>
+		</a>
+		<a href='ballot.html' class='row'>
+			<div class='column-left'>Cast Vote</div>
+			<div class='column-right'><i class='fas fa-upload'></i></div>
+		</a>
+
+</div>
+          </body>
+          </html>
