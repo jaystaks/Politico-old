@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<script defer src="assets/main.js"></script>
 <head>
 
   <meta charset="UTF-8">
@@ -184,10 +184,13 @@ button[type=submit] {
         <label>
         Password<span class="req">*</span>
         </label>
-        <input type="password" name="password" required autocomplete="off" />
+        <input type="password" value="FakePSW" id="myInput" name="password" required autocomplete="off" />
       </div>
 
-      <p class="forgot"><a href="#">Forgot Password?</a></p>
+      <!-- An element to toggle between password visibility -->
+      <input type="checkbox" onclick="myFunction()">Show Password
+
+      <p class="forgot"><a href="dashboard/passres.html">Forgot Password?</a></p>
 
       <button type="submit" class="button button-block" />Log In</button>
 
